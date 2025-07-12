@@ -1,0 +1,15 @@
+name: mlops-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.23.5
+  - pandas
+  - matplotlib
+  - seaborn
+  - pyarrow
+  - fastparquet
+  - pip
+  - pip:
+      - koreanize-matplotlib
